@@ -1,13 +1,19 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import re
-
 from scrapy.http import Request
 
-regexLevel = re.compile("^.*; Level ((([a-zA-Z/ ]+) ([0-9]+)(, )?)+)( |;|(CASTING)).*\.")
-regexComponents = re.compile("^.*Components ([^\n]*)EFFECT.*\.")
-regexSR = re.compile("^.*Spell Resistance ([^\n]*)DESCRIPTION.*\.")
-regexNumeral = re.compile("^(.*) ([0-9])$")
+regexLevel = re.compile("(([a-zA-Z/][a-zA-Z/ ]*) ([0-9]+))") #each match a class+level || group 2 : class ; group 3 : level
+regexComponents = re.compile("[A-Z]+([^,)]*\))?") #each match is a comp
+#regexSR = re.compile("^.*Spell Resistance ([^\n]*)DESCRIPTION.*\.") # muda muda muda
+regexNumeral = re.compile("^(.*) ([0-9])$") # mudada ?
+
+
+regexClearHTML = re.compile("</?a[^>]*>") # replace by ""
+regexExtractLevels = re.compile("<b>Level</b>")#([^<]*)".encode("utf-8")) #res in group 1
+regexExtractComponents = re.compile("<b>Components</b>([^<]*)") #res in group 1
+regexExtractSR = re.compile("<b>Spell Resistance</b>([^<]*)") #res in group 1
+
 
 class SpellSpider(scrapy.Spider):
     name = 'spell'
@@ -23,36 +29,37 @@ class SpellSpider(scrapy.Spider):
     def parse_spell(self, response):
 
         #name
-        name = response.xpath('//h1//text()').get()
+        name = response.xpath('//h1//text()').get().encode("utf-8")
         #ALL THE TEEEEXT
-        temp = ''.join(response.xpath('//div[has-class("article-content")]//*/text()').getall())
-
+        temp = ' '.join(response.xpath('//div[has-class("article-content")]/*').getall()).encode("utf-8")
+        te = re.sub(regexClearHTML,"",temp)
+        #print(te)
+        print(regexExtractLevels.pattern)
         #Levels
-        leveltab =  regexLevel.match(temp)
+        leveltab = regexExtractLevels.match(te)
+        print(name + " : " + leveltab)
         levels = {}
-        for levelstemp in leveltab.group(1).split(', '):
-            t = regexNumeral.match(levelstemp)   
-            levels[t.group(1)] = t.group(2)
-
+        try:
+            
+            print(name + " : " + leveltab.groupdict)
+            l = regexLevel.match(leveltab.group(1))
+            for levelstemp in l:
+                levels[levelstemp.group(2)] = levelstemp.group(3)
+        except:
+            #print("Spell " + name+" broke : \n" + te +"\n" )
+            pass
+        
         #Components
-        componenttab = regexComponents.match(temp)
+        componenttab = regexExtractComponents.match(te)
         components=[]
         if(componenttab):
-            c = componenttab.group(1).split('(')
-            for compo in c[0].split(', '):
-                if(compo.find('/')!=-1) :
-                    l = compo.split("/")
-                    for i in l:
-                        if(i == 'M' and len(c)>1):
-                            i+='('+c[1]
-                        components.append(i)
-                else:
-                    if(compo == 'M' and len(c)>1): #exception for specific material components
-                        compo+= '('+c[1]
-                    components.append(compo)
+            c = componenttab.group(1)
+            c1 = regexComponents.match(c)
+            for compo in c1:
+                components.append(compo)
         
         #Spell resistance
-        SRtab = regexSR.match(temp)
+        SRtab = regexExtractSR.match(te).group(1)
         SR=""
         if(SRtab):
             SR = SRtab.group(1)
