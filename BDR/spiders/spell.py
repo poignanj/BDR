@@ -3,25 +3,23 @@ import scrapy
 import re
 from scrapy.http import Request
 
-regexLevel = re.compile("(([a-zA-Z/][a-zA-Z/ ]*) ([0-9]+))") #each match a class+level || group 2 : class ; group 3 : level
-regexComponents = re.compile("[A-Z]+([^,)]*\))?") #each match is a comp
-#regexSR = re.compile("^.*Spell Resistance ([^\n]*)DESCRIPTION.*\.") # muda muda muda
-regexNumeral = re.compile("^(.*) ([0-9])$") # mudada ?
+regexClearHTML = re.compile(r"</?a[^>]*>") # replace by ""
 
+regexExtractLevels = re.compile(r".*<b>Level</b>([^<]*)") #res in group 1
+regexLevel = re.compile(r"(([a-zA-Z/][a-zA-Z/ ]*) ([0-9]+))") #each match a class+level || group 2 : class ; group 3 : level
 
-regexClearHTML = re.compile("</?a[^>]*>") # replace by ""
-regexExtractLevels = re.compile("<b>Level</b>")#([^<]*)".encode("utf-8")) #res in group 1
-regexExtractComponents = re.compile("<b>Components</b>([^<]*)") #res in group 1
-regexExtractSR = re.compile("<b>Spell Resistance</b>([^<]*)") #res in group 1
+regexExtractComponents = re.compile(r".*<b>Components</b>([^<]*)") #res in group 1
+regexComponents = re.compile(r"([A-Z]+([^,/)]*\))?)") #each match is a comp
+
+regexExtractSR = re.compile(r".*<b>Spell Resistance</b>([^<]*)") #res in group 1
 
 
 class SpellSpider(scrapy.Spider):
     name = 'spell'
     allowed_domains = ['www.d20pfsrd.com']
     start_urls = ['https://www.d20pfsrd.com/magic/spell-lists-and-domains/spell-lists-sorcerer-and-wizard/']
-    
 
-    def parse(self, response):          
+    def parse(self, response):
         s_links = response.xpath('//tr/td[has-class("text")][1]/a/@href').getall()
         for s_link in s_links:
             yield Request(s_link, callback=self.parse_spell)
@@ -31,35 +29,38 @@ class SpellSpider(scrapy.Spider):
         #name
         name = response.xpath('//h1//text()').get().encode("utf-8")
         #ALL THE TEEEEXT
-        temp = ' '.join(response.xpath('//div[has-class("article-content")]/*').getall()).encode("utf-8")
+        temp = ''.join(response.xpath('//div[has-class("article-content")]/*').getall()).encode("utf-8")
+        #temp = response.xpath('//div[has-class("article-content")]/*').getall()).encode("utf-8")
         te = re.sub(regexClearHTML,"",temp)
-        #print(te)
-        print(regexExtractLevels.pattern)
+        temp = re.sub(r" +"," ",te)
+        te2 = "".join(temp.split("=\r\n"))
+        te = "".join(te2.split("\r"))
+        te2 = "".join(te.split("\n")) 
+        
         #Levels
-        leveltab = regexExtractLevels.match(te)
-        print(name + " : " + leveltab)
+        leveltab = regexExtractLevels.match(te2)
+        
         levels = {}
         try:
+            l = regexLevel.findall(leveltab.group(1))
             
-            print(name + " : " + leveltab.groupdict)
-            l = regexLevel.match(leveltab.group(1))
             for levelstemp in l:
-                levels[levelstemp.group(2)] = levelstemp.group(3)
+                levels[levelstemp[1]] = levelstemp[2]
         except:
-            #print("Spell " + name+" broke : \n" + te +"\n" )
-            pass
+             print("Spell " + name+" : levels extract broke")
+             pass
         
         #Components
         componenttab = regexExtractComponents.match(te)
         components=[]
         if(componenttab):
             c = componenttab.group(1)
-            c1 = regexComponents.match(c)
+            c1 = regexComponents.findall(c)
             for compo in c1:
-                components.append(compo)
+                components.append(compo[0])
         
         #Spell resistance
-        SRtab = regexExtractSR.match(te).group(1)
+        SRtab = regexExtractSR.match(te)
         SR=""
         if(SRtab):
             SR = SRtab.group(1)
