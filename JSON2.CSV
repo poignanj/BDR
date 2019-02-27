@@ -1,0 +1,1199 @@
+SR,levels,name,components
+" yes (harmless)",Array,Resistance,Array
+,Array,"Detect Magic",Array
+" yes",Array,"Rare Cantrips",Array
+,Array,"Read Magic",Array
+" no",Array,"Detect Poison",Array
+" yes",Array,Daze,Array
+,Array,"Ray of Frost",Array
+,Array,"Acid Splash",Array
+" yes",Array,Flare,Array
+" no",Array,"Dancing Lights",Array
+" no",Array,Light,Array
+" no; see text ",Array,"Protection from Evil",Array
+" no; see text ",Array,"Protection from Chaos",Array
+" yes (object)",Array,Peacebond,Array
+" no",Array,"Obscure Poison",Array
+" no",Array,"Line In The Sand",Array
+,Array,"Invisibility Alarm",Array
+,Array,"Polypurpose Panacea",Array
+" yes (harmless, object)",Array,"Hidden Blades",Array
+" yes or no; see text",Array,Pyrotechnics,Array
+,Array,"Pouncing Fury",Array
+" yes",Array,"Owl’s Wisdom",Array
+" no",Array,"Mirror Hideaway",Array
+,Array,"Ablative Sphere",Array
+" yes (harmless, object)",Array,"Winged Sword",Array
+" no",Array,"Whispering Wind",Array
+,Array,"Visualization of The Mind",Array
+" no",Array,"Pellet Blast",Array
+" no",Array,"Nauseating Trail",Array
+" no",Array,"Mad Monkeys",Array
+" no",Array,"Iron Stake",Array
+" yes",Array,"Hold Person",Array
+" yes (harmless)",Array,Heroism,Array
+" no ",Array,"Draconic Malice",Array
+" yes",Array,"Deflect Blame",Array
+" yes",Array,"Pain Strike",Array
+" no",Array,"Motes of Dusk And Dawn",Array
+,Array,"Lightning Bolt",Array
+,Array,"Hydraulic Torrent",Array
+" yes",Array,"Howling Agony",Array
+" yes",Array,"Healing Thief",Array
+" yes",Array,"Halt Undead",Array
+" yes (object)",Array,"Gentle Repose",Array
+" yes (harmless)",Array,"Blood Scent",Array
+,Array,Blink,Array
+" yes (see below)",Array,"Blast Barrier",Array
+,Array,"Beast Shape",Array
+" yes (harmless)",Array,"Prehensile Pilfer",Array
+" yes (harmless)",Array,"Polymorph Familiar",Array
+,Array,"Paragon Surge",Array
+,Array,"Monstrous Physique",Array
+,Array,"Medusa’s Bane",Array
+" yes",Array,"Homeward Bound",Array
+,Array,"Globe of Invulnerability",Array
+,Array,"Firewalker’s Meditation",Array
+,Array,"Solid Fog",Array
+" no",Array,"Shadow Invasion",Array
+" no ",Array,"Secure Shelter",Array
+" no",Array,"Phantom Chariot",Array
+" yes",Array,"Symbol of Laughter",Array
+" yes",Array,"Overwhelming Grief",Array
+" yes",Array,Moonstruck,Array
+" yes",Array,"Malicious Spite",Array
+" yes",Array,"Resilient Sphere",Array
+" yes",Array,"Pyrotechnic Eruption",Array
+" yes",Array,"Mydriatic Spontaneity",Array
+" yes ",Array,"Ice Storm",Array
+" yes",Array,"Minor Phantom Object",Array
+" yes",Array,"Majestic Image",Array
+" no",Array,"Instant Fake",Array
+,Array,"Illusory Wall",Array
+" yes ",Array,Enervation,Array
+" no",Array,Earsend,Array
+,Array,"Contingent Venom",Array
+" yes",Array,Contagion,Array
+" no",Array,Liquefy,Array
+" yes",Array,"Irregular Size",Array
+,Array,"Innocuous Shape",Array
+" no",Array,"Ignoble Form",Array
+" no (object)",Array,"Calm Air",Array
+" no ",Array,"Break Enchantment",Array
+" yes (see text)",Array,"Banishing Blade",Array
+" yes (object)",Array,"Warp Metal",Array
+" no",Array,"Release The Hounds",Array
+,Array,"Planar Binding",Array
+,Array,"Major Creation",Array
+" no",Array,"Mage’s Faithful Hound",Array
+" no",Array,"Telepathic Bond",Array
+" no",Array,"Symbol of Scrying",Array
+" no ",Array,"Prying Eyes",Array
+" yes (harmless, object)",Array,"Mask From Divination",Array
+,Array,"Symbol of Sleep",Array
+" yes",Array,"Smug Narcissism",Array
+" yes",Array,"Sleepwalking Suggestion",Array
+" yes",Array,Pessimism,Array
+,Array,"Mirage Arcana",Array
+" yes",Array,"Major Phantom Object",Array
+" yes",Array,"Impossible Angles",Array
+" no",Array,"False Vision",Array
+,Array,"Red Hand of The Killer",Array
+,Array,"Possess Object",Array
+" yes",Array,"Plague Carrier",Array
+" yes",Array,"Magic Jar",Array
+" yes (harmless)",Array,"Rapid Repair",Array
+" yes (harmless)",Array,Polymorph,Array
+,Array,"Plant Shape",Array
+,Array,"Planar Adaptation",Array
+" no",Array,"Analyze Dweomer",Array
+,Array,"Whip of Ants",Array
+,Array,"Wall of Iron",Array
+,Array,"Treacherous Teleport",Array
+" yes",Array,"Circle of Death",Array
+" yes",Array,"Banshee Blast",Array
+,Array,Veil,Array
+,Array,"Triggered Hallucination",Array
+,Array,"Ether Step",Array
+" yes",Array,"Enemy Hammer",Array
+" no",Array,"Emblem of Greed",Array
+,Array,Disintegrate,Array
+,Array,Expend,Array
+,Array,"Circle of Clarity",Array
+" yes",Array,Banishment,Array
+,Array,Transformation,Array
+" yes",Array,"Archon’s Trumpet",Array
+" yes",Array,"Waves of Ecstasy",Array
+,Array,"Symbol of Stunning",Array
+" yes",Array,"Pox of Rumors",Array
+" yes",Array,"Artificer’s Curse",Array
+" no",Array,"Arcane Cannon",Array
+,Array,"Waves of Exhaustion",Array
+" yes",Array,"Umbral Strike",Array
+" no",Array,"Reverse Gravity",Array
+" yes",Array,"Resonating Word",Array
+" no",Array,"Particulate Form",Array
+,Array,"Polar Ray",Array
+" no",Array,"Curse of Night",Array
+,Array,"Clenched Fist",Array
+" yes",Array,Sympathy,Array
+" no",Array,"Clashing Rocks",Array
+" no ",Array,"Wall of Suppression",Array
+" no",Array,"Symbol of Vulnerability",Array
+" yes",Array,"Canopic Conversion",Array
+" yes",Array,Massacre,Array
+,Array,"Energy Drain",Array
+" see text",Array,Spellbane,Array
+,Array,"Cursed Earth",Array
+" no",Array,"Transmute Golem",Array
+" yes ",Array,"World Wave",Array
+" yes",Array,"Transmute Blood to Acid",Array
+" yes",Array,Wish,Array
+,Array,"Time Stop",Array
+,Array,Shapechange,Array
+" yes",Array,"Scribe’s Binding",Array
+" yes",Array,Etherealness,Array
+" no",Array,"Curse of Fell Seasons",Array
+,Array,Salvage,Array
+,Array,"Fiery Body",Array
+,Array,"Wail of the Banshee",Array
+" no",Array,"Soul Bind",Array
+,Array,Weird,Array
+,Array,Shades,Array
+,Array,"Winds of Vengeance",Array
+,Array,"Ride the Lightning",Array
+,Array,"Meteor Swarm",Array
+" yes",Array,"Crushing Hand",Array
+" yes (harmless)",Array,"Heroic Invocation",Array
+,Array,"Dominate Monster",Array
+,Array,Foresight,Array
+" no",Array,"Wooden Phalanx",Array
+" no",Array,Tsunami,Array
+" yes",Array,"Power Word Kill",Array
+" yes",Array,"Overwhelming Presence",Array
+" yes",Array,"Symbol of Strife",Array
+" yes",Array,"Teleportation Circle",Array
+" no",Array,"Resplendent Mansion",Array
+,Array,Refuge,Array
+" yes",Array,"Maze of Madness and Suffering",Array
+" no and yes (object)",Array,"Interplanetary Teleport",Array
+" no",Array,Gate,Array
+,Array,"Prismatic Sphere",Array
+" see text",Array,"Mage’s Magnificent Enclosure",Array
+" no",Array,"Mage’s Disjunction",Array
+" yes",Array,Imprisonment,Array
+" yes (harmless)",Array,"Impenetrable Veil",Array
+" yes",Array,Freedom,Array
+,Array,"Wandering Weather",Array
+" yes",Array,"Temporal Stasis",Array
+,Array,"Quintessence Mastery",Array
+" yes (object)",Array,"Polymorph Any Object",Array
+" yes",Array,"Orb of the Void",Array
+,Array,"Frightful Aspect",Array
+" yes",Array,"Phasic Challenge",Array
+" yes",Array,"Symbol of Death",Array
+,Array,"Iron Body",Array
+,Array,"Horrid Wilting",Array
+,Array,Clone,Array
+" yes",Array,"Death Clutch",Array
+,Array,Screen,Array
+,Array,"Telekinetic Sphere",Array
+" yes",Array,"Scintillating Pattern",Array
+,Array,Sunburst,Array
+" yes",Array,Stormbolts,Array
+,Array,"Symbol of Insanity",Array
+" yes",Array,"Life of Crime",Array
+" yes",Array,"Power Word Stun",Array
+" yes",Array,"Irresistible Dance",Array
+" yes",Array,"Euphoric Tranquility",Array
+" yes",Array,Demand,Array
+" yes",Array,Binding,Array
+" yes",Array,Antipathy,Array
+" yes",Array,"Prediction of Failure",Array
+,Array,"Moment of Prescience",Array
+" no",Array,"Discern Location",Array
+" no ",Array,"Wall of Lava",Array
+" yes; see text",Array,"Trap the Soul",Array
+,Array,Seamantle,Array
+,Array,"Rift of Ruin",Array
+" no",Array,"Rain of Arrows",Array
+,Array,"Call Construct",Array
+" no",Array,"Symbol of Dispelling",Array
+,Array,Spellscar,Array
+,Array,"Protection from Spells",Array
+,Array,"Incendiary Cloud",Array
+" yes",Array,Maze,Array
+" no",Array,"Fey Gate",Array
+" yes (harmless) ",Array,"Mind Blank",Array
+" yes",Array,"Dimensional Lock",Array
+" yes ",Array,"Limited Wish",Array
+" no",Array,"Submerge Ship",Array
+,Array,Statue,Array
+" yes",Array,"Memory of Function",Array
+,Array,"Magical Beast Shape",Array
+,Array,"Prismatic Wall",Array
+" yes (harmless, object)",Array,"Magic Army",Array
+" no",Array,"Legendary Proportions",Array
+,Array,"Ice Body",Array
+,Array,"Giant Form",Array
+,Array,"Fly, Mass",Array
+,Array,Firebrand,Array
+,Array,"Ethereal Jaunt",Array
+,Array,"Control Weather",Array
+,Array,"Control Construct",Array
+,Array,"Temporary Resurrection",Array
+,Array,"Symbol of Weakness",Array
+" no",Array,"Plundered Power",Array
+" no",Array,"Plague Storm",Array
+,Array,"Finger of Death",Array
+" yes",Array,Epidemic,Array
+" no",Array,"Create Variant Mummy",Array
+,Array,"Control Undead",Array
+" yes",Array,"Phantasmal Revenge",Array
+" none",Array,"Subjective Reality",Array
+" no",Array,"Project Image",Array
+" no",Array,"Lunar Veil",Array
+" yes ",Array,Vortex,Array
+,Array,"Permanent Hallucination",Array
+" yes (see text)",Array,"Scouring Winds",Array
+,Array,"Prismatic Spray",Array
+,Array,"Mage’s Sword",Array
+" yes",Array,"Ki Shout",Array
+" yes (see text)",Array,"Hungry Darkness",Array
+,Array,"Delayed Blast Fireball",Array
+" no",Array,Forcecage,Array
+" yes",Array,"Power Word Blind",Array
+,Array,"Grasping Hand",Array
+" yes",Array,"Lost Legacy",Array
+" yes",Array,Insanity,Array
+" yes",Array,"Crime Wave",Array
+,Array,Vision,Array
+,Array,"Walk through Space",Array
+" yes (object)",Array,"Teleport Object",Array
+" no",Array,Rampart,Array
+,Array,"Plane Shift",Array
+" no",Array,"Planar Refuge",Array
+" no",Array,"Phase Door",Array
+,Array,"Mage’s Magnificent Mansion",Array
+" yes",Array,"Joyful Rapture",Array
+" no",Array,"Instant Summons",Array
+" no and yes (object)",Array,"Dimensional Bounce",Array
+,Array,"Caustic Eruption",Array
+" yes",Array,"Teleport Trap",Array
+,Array,"Spell Turning",Array
+" no or yes (object)",Array,Sequester,Array
+,Array,"Create Demiplane",Array
+" yes (object)",Array,"Magnetic Field",Array
+" no",Array,"Tar Pool",Array
+,Array,"Stone to Flesh",Array
+,Array,"Sonic Form",Array
+,Array,"Sabotage Construct",Array
+" no",Array,Oasis,Array
+,Array,"Move Earth",Array
+,Array,"Mage’s Lucubration",Array
+" no",Array,"Impart Mind",Array
+,Array,Hardening,Array
+" no",Array,"Form of the Exotic Dragon I-III",Array
+,Array,"Form of the Dragon",Array
+,Array,"Form of The Alien Dragon I-III",Array
+,Array,"Fluid Form",Array
+,Array,"Flesh to Stone",Array
+,Array,"Dimensional Blade",Array
+" no",Array,"Control Water",Array
+" yes",Array,"Wither Limb",Array
+" yes ",Array,"Unwilling Shield",Array
+,Array,"Undeath to Death",Array
+,Array,"Symbol of Fear",Array
+" yes",Array,"Hasten Judgment",Array
+" no",Array,"Flesh Wall",Array
+" yes",Array,Eyebite,Array
+,Array,"Curse, Major",Array
+" no",Array,"Create Undead",Array
+" no",Array,"Transfer Familiar",Array
+,Array,"Shadow Walk",Array
+" yes; see text",Array,"Shadow Transmutation",Array
+,Array,"Programmed Image",Array
+" yes",Array,"Phantasmal Putrefaction",Array
+,Array,"Permanent Image",Array
+" yes",Array,"Night Terrors",Array
+" no",Array,Mislead,Array
+" yes",Array,"Baleful Shadow Transmutation",Array
+" yes",Array,"Spellblight Jinx",Array
+" yes",Array,Sirocco,Array
+" yes",Array,"Path of the Winds",Array
+" no",Array,"Mage’s Decree",Array
+" yes",Array,"Leashed Shackles",Array
+,Array,"Hellfire Ray",Array
+,Array,"Freezing Sphere",Array
+,Array,"Forceful Hand",Array
+" yes",Array,"Elemental Assessor",Array
+,Array,"Defending Sword",Array
+" yes",Array,Decapitate,Array
+,Array,Contingency,Array
+,Array,"Contagious Flame",Array
+,Array,"Cold Ice Strike",Array
+" yes",Array,"Chain Lightning",Array
+" yes ",Array,"Chains of Fire",Array
+" yes",Array,"Vengeful Outrage",Array
+" yes",Array,"Utter Contempt",Array
+" yes",Array,"Unconscious Agenda",Array
+,Array,"Symbol of Persuasion",Array
+" yes",Array,"Symbol of Distraction",Array
+" yes",Array,Serenity,Array
+" yes",Array,Phobia,Array
+" yes",Array,"Envious Urge",Array
+" yes",Array,"Cloak of Dreams",Array
+" yes (harmless)",Array,"True Seeing",Array
+,Array,Telepathy,Array
+,Array,"Legend Lore",Array
+,Array,"Battlemind Link",Array
+,Array,"Summon Vanth",Array
+" yes",Array,"Ice Crystal Teleport",Array
+,Array,Getaway,Array
+" no",Array,"Cruel Jaunt",Array
+,Array,"Conjure Black Pudding",Array
+" no",Array,"Chains of Light",Array
+,Array,"Acid Fog",Array
+" yes",Array,"Undeath Ward",Array
+" no",Array,"Symbol of Sealing",Array
+,Array,Repulsion,Array
+" see text",Array,"Guards and Wards",Array
+" no",Array,"Dust Ward",Array
+" see text",Array,"Antimagic Field",Array
+" no",Array,Permanency,Array
+" no",Array,"Vile Dog Transformation",Array
+" yes (object) ",Array,"Treasure Stitching",Array
+,Array,"Transplant Visage",Array
+" no",Array,"Transmute Rock to Mud",Array
+" no",Array,"Transmute Mud to Rock",Array
+,Array,Telekinesis,Array
+" yes",Array,Slough,Array
+" yes (harmless)",Array,"Shapechanger’s Gift",Array
+" no",Array,"Rune of Ruin",Array
+,Array,Rubberskin,Array
+,Array,Passwall,Array
+,Array,"Overland Flight",Array
+" no",Array,"Open Arms",Array
+,Array,"Ooze Form",Array
+" no",Array,"Master’s Mutation",Array
+" no",Array,"Hungry Earth",Array
+" no",Array,"Half-Blood Extraction",Array
+" yes (harmless)",Array,"Gift of the Deep",Array
+,Array,Geniekind,Array
+" yes",Array,"Flexile Curse",Array
+" yes",Array,"Fickle Winds",Array
+" no",Array,Fabricate,Array
+" yes (harmless, object)",Array,"Energy Siege Shot",Array
+,Array,Echolocation,Array
+" no",Array,Dissolution,Array
+" no",Array,"Caustic Blood",Array
+": yes",Array,"Baleful Polymorph",Array
+,Array,"Animal Growth",Array
+,Array,"Waves of Fatigue",Array
+,Array,"Vampiric Shadow Shield",Array
+" no",Array,"Torpid Reanimation",Array
+,Array,"Symbol of Pain",Array
+" yes ",Array,"Summoner Conduit",Array
+" yes",Array,Suffocation,Array
+" yes (harmless)",Array,Soulswitch,Array
+" no",Array,"Ghoul Army",Array
+" yes",Array,"Feast On Fear",Array
+" yes",Array,"Empathy Conduit",Array
+" yes (harmless)",Array,Decollate,Array
+" yes (harmless)",Array,Daywalker,Array
+" yes",Array,"Conditional Curse",Array
+" yes",Array,"Blood Boil",Array
+" yes",Array,Blight,Array
+" yes",Array,"Black Spot",Array
+" yes",Array,"Astral Projection",Array
+" no",Array,"Absorb Toxicity",Array
+" yes, see text",Array,"Symbol of Striking",Array
+,Array,"Shadow Evocation",Array
+" yes or no; see text",Array,Seeming,Array
+,Array,"Scripted Hallucination",Array
+" yes",Array,"Phantasmal Web",Array
+,Array,"Persistent Image",Array
+" yes",Array,Nightmare,Array
+" yes",Array,"False Future",Array
+" yes",Array,Dream,Array
+" no",Array,"Charnel House",Array
+" yes",Array,"Wall of Sound",Array
+" yes",Array,"Wall of Light",Array
+" no",Array,"Wall of Force",Array
+" yes (object) (see text)",Array,"Sonic Thrust",Array
+,Array,Sending,Array
+" see text",Array,"Runic Overload",Array
+" yes (see text)",Array,"Lightning Arc",Array
+" yes",Array,"Interposing Hand",Array
+" yes",Array,"Icy Prison",Array
+" yes",Array,"Fire Snake",Array
+" yes",Array,"Cone of Cold",Array
+" no (object)",Array,"Augmenting Wall",Array
+" yes",Array,"Mind Fog",Array
+,Array,"Hold Monster",Array
+" yes (harmless)",Array,"Grand Destiny",Array
+,Array,Feeblemind,Array
+" yes",Array,"Dominate Person",Array
+" yes",Array,"Curse of Disgust",Array
+" yes",Array,"Constricting Coils",Array
+" no",Array,"Compelling Rant",Array
+" Yes",Array,"Apparent Master(3.5E)",Array
+" no",Array,"Trace Teleport",Array
+" no",Array,"Locate Gate",Array
+,Array,"Foretell Failure",Array
+,Array,"Glimpse of Truth",Array
+" no",Array,"Wall of Stone",Array
+" no ",Array,"Unseen Crew",Array
+,Array,Teleport,Array
+,Array,"Whip of Centipedes",Array
+,Array,"Contact Other Plane",Array
+" no",Array,"Summon Lesser Psychopomp",Array
+" no ",Array,"Summon Infernal Host",Array
+" yes",Array,Straitjacket,Array
+,Array,"Secret Chest",Array
+" no",Array,"Roaming Pit",Array
+" no",Array,"Hungry Pit",Array
+" yes",Array,"Hostile Juxtaposition",Array
+,Array,Geyser,Array
+,Array,"Flash Forward",Array
+" no",Array,"Duplicate Familiar",Array
+" no",Array,"Damnation Stride",Array
+,Array,"Corrosive Consumption",Array
+" no",Array,"Companion Transposition",Array
+" no",Array,Cloudkill,Array
+" yes ",Array,"Acidic Spray",Array
+" no (special, see below)",Array,"Wreath of Blades",Array
+,Array,"Spell Absorption",Array
+,Array,"Mage’s Private Sanctum",Array
+" yes (harmless)",Array,"Life Bubble",Array
+" no",Array,"Unbreakable Construct",Array
+" yes",Array,Spellsteal,Array
+" no",Array,"Soothe Construct",Array
+" no",Array,"Siphon Magic",Array
+" no",Array,"Globe of Tranquil Water",Array
+,Array,Dismissal,Array
+" no",Array,Darkvault,Array
+" no",Array,"Covetous Aura",Array
+,Array,"Vermin Shape",Array
+,Array,"Temporary Graft",Array
+" yes (harmless)",Array,Tailwind,Array
+" yes",Array,"Symbol of Slowing",Array
+,Array,"Stone Shape",Array
+" no",Array,"Shadowy Haven",Array
+" no",Array,"Scorching Ash Form",Array
+,Array,"Tail Current",Array
+" yes",Array,"Rigor Mortis",Array
+" yes",Array,"Resilient Reservoir",Array
+" no",Array,"Rags to Riches",Array
+" no",Array,"Obsidian Flow",Array
+,Array,"Mnemonic Enhancer",Array
+" yes (object)",Array,"Mirror Transport",Array
+" yes (harmless)",Array,"Ride the Waves",Array
+" no",Array,"Revenant Armor",Array
+" yes",Array,Malfunction,Array
+,Array,"Hellmouth Lash",Array
+" no",Array,Firefall,Array
+,Array,"Fey Form",Array
+,Array,"Eyes of The Void",Array
+,Array,"Elemental Body",Array
+" yes (harmless)",Array,"Earth Glide",Array
+" no",Array,"Miasmatic Form",Array
+" yes",Array,"Curse of Burning Sleep",Array
+" no",Array,"Create Holds",Array
+,Array,"Conversing Wind",Array
+,Array,"Cloud Shape",Array
+" yes",Array,"Claim Identity",Array
+" yes",Array,"Calcific Touch",Array
+,Array,"Age Resistance",Array
+,Array,"Adjustable Polymorph",Array
+" yes",Array,"Abyssal Vermin",Array
+" no",Array,"Absorbing Inhalation",Array
+" yes; see text",Array,"Wall of Bone",Array
+" yes",Array,"Wall of Blindness/Deafness",Array
+" yes",Array,"Umbral Infusion",Array
+,Array,"Skeleton Crew",Array
+,Array,"Shadow Projection",Array
+,Array,Sadomasochism,Array
+" yes",Array,"Masochistic Shadow",Array
+" yes",Array,"Hunger for Flesh",Array
+,Array,"Flesh Puppet",Array
+" yes ",Array,Fear,Array
+" yes",Array,"Familiar Melding",Array
+" yes",Array,Boneshatter,Array
+" no (harmless)",Array,"Bloody Arrows",Array
+,Array,Bloatbomb,Array
+,Array,"Bestow Curse",Array
+" yes",Array,"Aggravate Affliction",Array
+" yes ",Array,"Wandering Star Motes",Array
+" no",Array,Simulacrum,Array
+" see text",Array,"Shocking Image",Array
+" no",Array,"Shadow Step",Array
+,Array,"Shadow Conjuration",Array
+" no",Array,"Shadow Barbs",Array
+" yes (object)",Array,"Quieting Weapons",Array
+" yes",Array,"Rainbow Pattern",Array
+" yes",Array,"Phantasmal Asphyxiation",Array
+" yes ",Array,"Phantasmal Killer",Array
+" yes",Array,Shadowform,Array
+,Array,"Hallucinatory Terrain",Array
+,Array,"Horrific Doubles",Array
+" yes",Array,"Illusion of Treachery",Array
+" no",Array,"Fool’s Teleport",Array
+,Array,"Wall of Ice",Array
+" yes",Array,"Wall of Fire",Array
+,Array,"Complex Hallucination",Array
+" yes",Array,"Volcanic Storm",Array
+" yes",Array,Dreadscape,Array
+" no and yes (see text)",Array,"Unbearable Brightness",Array
+,Array,"Vitriolic Mist",Array
+,Array,"Telekinetic Charge",Array
+" yes (object)",Array,Shout,Array
+" yes",Array,"River of Wind",Array
+" no",Array,"Hurricane Blast",Array
+,Array,"Fire Shield",Array
+" yes",Array,"Dragon’s Breath",Array
+,Array,Detonate,Array
+,Array,"Deadman’s Contingency",Array
+" yes",Array,"Creeping Ice",Array
+,Array,"Controlled Fireball",Array
+" yes (harmless)",Array,"Contingent Scroll",Array
+,Array,"Ball Lightning",Array
+" yes ",Array,Agonize,Array
+,Array,"Triggered Suggestion",Array
+" yes ",Array,"Terrible Remorse",Array
+" yes",Array,"Mad Sultan’s Melody",Array
+" yes (harmless)",Array,"Hollow Heroism",Array
+" yes",Array,Geas/Quest,Array
+" yes",Array,"Forgetful Slumber",Array
+" yes; see text",Array,"Demanding Message",Array
+" yes",Array,"Crushing Despair",Array
+,Array,"Control Summoned Creature",Array
+" yes",Array,Confusion,Array
+,Array,"Charm Monster",Array
+" yes",Array,"Aura of the Unremarkable",Array
+" yes",Array,"Antithetical Constraint",Array
+" no",Array,"Watchful Animal",Array
+" yes (object)",Array,"Vicarious View",Array
+,Array,"Symbol of Revelation",Array
+" yes (harmless)",Array,"Share Senses",Array
+" yes ",Array,Scrying,Array
+" yes (harmless, object)",Array,"Named Bullet",Array
+" yes (object)",Array,"Meticulous Match",Array
+,Array,"Locate Creature",Array
+" no",Array,"Insect Spies",Array
+" no ",Array,"Detect Scrying",Array
+" no",Array,"Arcane Eye",Array
+,Array,"Akashic Communion",Array
+" yes (object)",Array,"Trade Items",Array
+" yes",Array,"Touch of Slime",Array
+" no ",Array,"Summon Accuser",Array
+,Array,"Minor Creation",Array
+" no",Array,"Master’s Escape",Array
+" no",Array,"Ghost Wolf",Array
+" yes",Array,"Fleshworm Infestation",Array
+" no and yes (object) ",Array,"Dimension Door",Array
+" no",Array,"Create Armaments",Array
+" yes",Array,"Conjure Deadfall",Array
+,Array,"Black Tentacles",Array
+" no and yes; see text",Array,"Bind Sage",Array
+" no",Array,"Anywhere But Here",Array
+" no",Array,"Acid Pit",Array
+" yes (harmless)",Array,"Ward Shield",Array
+" yes",Array,"True Form",Array
+" yes (harmless)",Array,"Tough Crowd",Array
+,Array,"Suppress Primal Magic",Array
+" yes (harmless)",Array,Stoneskin,Array
+" no",Array,"Dream Shield",Array
+" yes",Array,"Fire Trap",Array
+" yes (harmless)",Array,"Remove Curse",Array
+" yes",Array,"Spellcrash, Lesser",Array
+,Array,"Enchantment Foil",Array
+,Array,"Curse of Magic Negation",Array
+" yes (object)",Array,"Dimensional Anchor",Array
+" yes (object)",Array,"Conjuration Foil",Array
+" yes (harmless)",Array,"Water Breathing",Array
+" yes (harmless, object)",Array,"Versatile Weapon",Array
+,Array,"Undead Anatomy",Array
+" no",Array,"Touch Injection",Array
+,Array,"Tail Strike",Array
+" yes",Array,"Strangling Hair",Array
+" yes (harmless, object)",Array,Spellsword,Array
+" yes",Array,Slow,Array
+" yes (object)",Array,"Shrink Item",Array
+" no",Array,"Shifting Sand",Array
+" no",Array,"Secret Page",Array
+" no",Array,"Resinous Skin",Array
+" yes",Array,"Raging Rubble",Array
+" yes",Array,"Pup Shape",Array
+" yes",Array,"Monstrous Extremities",Array
+" yes",Array,"Imbue With Addiction",Array
+,Array,"Keen Edge",Array
+" yes (object)",Array,"Improve Trap",Array
+" yes",Array,"Hostile Levitation",Array
+,Array,"Infuse Self",Array
+" no",Array,"Heart of The Metal",Array
+" yes",Array,"Hollow Blades",Array
+" yes (harmless)",Array,Haste,Array
+" no",Array,"Gaseous Form",Array
+,Array,"Fractions of Heal and Harm",Array
+" yes (object); see text",Array,"Flash Fire",Array
+,Array,Fly,Array
+" no",Array,"Flame Arrow",Array
+" yes",Array,"Fire Trail",Array
+" yes",Array,"Fins to Feet",Array
+" yes",Array,"Excruciating Deformation",Array
+,Array,"First World Revisions",Array
+" yes",Array,"Eruptive Postules",Array
+,Array,"Enter Image",Array
+" no",Array,"Earth Tremor",Array
+" no",Array,"Disable Construct",Array
+" yes",Array,Devolution,Array
+,Array,"Countless Eyes",Array
+" no",Array,"Control Vermin",Array
+" no",Array,"Deft Digits",Array
+,Array,Burrow,Array
+" yes (object)",Array,Blot,Array
+" no (harmless)",Array,"Blood Sentinel",Array
+,Array,"Assume Appearance",Array
+" yes",Array,"Armor Lock",Array
+" yes",Array,"Aristocrat’s Nightmare",Array
+" yes (harmless)",Array,"Ape Walk",Array
+" yes ",Array,"Anthropomorphic Animal",Array
+,Array,"Anchored Step",Array
+" yes (harmless)",Array,"Ancestral Regression",Array
+" yes (harmless)",Array,"Air Breathing",Array
+" yes",Array,"Vampiric Touch",Array
+" yes",Array,"Unliving Rage",Array
+" yes",Array,"Toxic Gift",Array
+" yes",Array,"Symbol of Exsanguination",Array
+" yes",Array,"Sands of Time",Array
+,Array,"Ray of Exhaustion",Array
+,Array,"Marionette Possession",Array
+,Array,Malediction,Array
+,Array,"Ki Leech",Array
+,Array,Hydrophobia,Array
+" yes",Array,"Eldritch Fever",Array
+" no (object)",Array,Deathwine,Array
+" no",Array,"Barrow Haze",Array
+" yes",Array,"Aura of Cannibalism",Array
+" no ",Array,"Animate Dead",Array
+" yes",Array,"Accursed Glare",Array
+" no",Array,"Wall of Nausea",Array
+" no",Array,"Vision of Hell",Array
+" yes",Array,Shadowmind,Array
+" yes",Array,"Phantasmal Affliction",Array
+" yes",Array,"Minor Dream",Array
+,Array,"Major Image",Array
+" yes",Array,"Loathsome Veil",Array
+" yes",Array,Isolate,Array
+" yes",Array,"Phantasmal Reminder",Array
+" yes",Array,"Shadow Enchantment",Array
+,Array,"Invisibility Sphere",Array
+" yes",Array,"Illusory Script",Array
+,Array,"Illusory Poison",Array
+" no",Array,"Fearsome Duplicate",Array
+" yes (harmless)",Array,Displacement,Array
+,Array,"Audiovisual Hallucination",Array
+" no",Array,"Appearance of Life",Array
+,Array,"Adjustable Disguise",Array
+" yes",Array,"Wind Wall",Array
+" no",Array,"Wall of Split Illumination",Array
+" yes",Array,"Vengeful Comets",Array
+" yes",Array,"Twilight Knife",Array
+" no",Array,"Trial of Fire and Acid",Array
+,Array,"Tiny Hut",Array
+" yes",Array,Spotlight,Array
+" yes ",Array,"Sheet Lightning",Array
+" yes",Array,Heatstroke,Array
+" yes",Array,"Force Punch",Array
+" yes",Array,Firestream,Array
+,Array,Fireball,Array
+" yes",Array,"Final Sacrifice",Array
+" yes",Array,"Elemental Aura",Array
+" yes (harmless)",Array,"Draconic Reservoir",Array
+,Array,"Distracting Cacophony",Array
+" yes",Array,"Diamond Spray",Array
+" no",Array,Daylight,Array
+" Yes (harmless)",Array,"Contingent Action",Array
+" yes (harmless) or no",Array,"Channel the Gift",Array
+" yes",Array,"Chain of Perdition",Array
+" yes",Array,"Campfire Wall",Array
+" yes",Array,"Call the Void",Array
+" yes or no (object)",Array,Blacklight(3.5E),Array
+,Array,"Battering Blast",Array
+" yes",Array,"Air Geyser",Array
+" yes",Array,"Unadulterated Loathing",Array
+" yes",Array,Suggestion,Array
+" yes",Array,"Stage Fright",Array
+" yes",Array,"Reckless Infatuation",Array
+" yes",Array,Rage,Array
+" yes",Array,"Pugwampi’s Grace",Array
+" yes",Array,"Psychic Leech",Array
+" yes",Array,"Open Book",Array
+" yes",Array,"Nixie’s Lure",Array
+" yes (harmless)",Array,"Mindlocked Messenger",Array
+" yes",Array,Matchmaker,Array
+" yes (harmless)",Array,"Lover’s Vengeance",Array
+,Array,"Deep Slumber",Array
+" yes",Array,"Charitable Impulse",Array
+" yes",Array,"Burdened Thoughts",Array
+" no",Array,"Bleed for Your Master",Array
+" yes (harmless)",Array,"Voluminous Vocabulary",Array
+" yes",Array,"Unravel Destiny",Array
+" no",Array,Tongues,Array
+,Array,"Spirit Bonds",Array
+" no",Array,Spherescry,Array
+" no",Array,"Seek Thoughts",Array
+,Array,"See Beyond",Array
+,Array,"Pierce Disguise",Array
+" yes (harmless)",Array,"Perfect Placement",Array
+" no",Array,"Pack Empathy",Array
+,Array,"Locate Weakness",Array
+" no",Array,"Insect Scouts",Array
+,Array,Harrowing,Array
+" yes",Array,"Find Fault",Array
+" no",Array,"Discern Value",Array
+" no",Array,"Detect Desires",Array
+,Array,"Detect Anxieties",Array
+" no",Array,Clairaudience-Clairvoyance,Array
+" no",Array,"Blood Biography",Array
+,Array,"Aura Sight",Array
+,Array,"Arcane Sight",Array
+" no",Array,"Waves of Blood",Array
+,Array,"Urban Step",Array
+" no",Array,"Swarm of Fangs",Array
+" no",Array,"Sundered Serpent Coil",Array
+" no",Array,"Summon Totem Creature",Array
+" yes",Array,"Storm Step",Array
+" no",Array,"Spiked Pit",Array
+,Array,"Sleet Storm",Array
+" yes",Array,"Silver Darts",Array
+,Array,"Stinking Cloud",Array
+" no",Array,"Sepia Snake Sigil",Array
+" no",Array,"Rain of Frogs",Array
+" no",Array,"Phantom Steed",Array
+" no",Array,"Phantom Driver",Array
+" no",Array,"Penumbral Disguise",Array
+" yes",Array,"Gloomblind Bolts",Array
+" no",Array,"Conjure Carriage",Array
+,Array,"Ash Storm",Array
+,Array,"Aqueous Orb",Array
+" no",Array,"Ablative Barrier",Array
+" yes (harmless)",Array,"Shield Companion (PZO1129)",Array
+,Array,"Selective Alarm",Array
+,Array,"Scales of Deflection",Array
+,Array,"Planar Inquiry",Array
+" yes",Array,"Quell Energy",Array
+" yes (harmless, object)",Array,Nondetection,Array
+" no; see text",Array,"Magic Circle against Evil",Array
+" yes",Array,"Force Anchor",Array
+" no",Array,"Infernal Challenger",Array
+" yes",Array,"Guardian Monument, Lesser",Array
+" no",Array,"Ice Spears",Array
+" yes (harmless)",Array,"Cloak of Winds",Array
+" no",Array,"Dispel Magic",Array
+" no",Array,"Blade Snare",Array
+,Array,"Visualization of The Body",Array
+" yes",Array,"Twisted Space",Array
+" yes (harmless)",Array,"Protection from Energy",Array
+" no",Array,"Telekinetic Assembly",Array
+" yes (object)",Array,"Tears to Wine",Array
+" yes",Array,"Tremor Blast",Array
+" yes (object), see text",Array,"Thunder Fire",Array
+" yes",Array,"Time Shudder",Array
+" no (object)",Array,"Telekinetic Volley",Array
+,Array,"Explosive Runes",Array
+" no",Array,"Tattoo Potion",Array
+" yes (harmless)",Array,"Strong Wings",Array
+" yes (harmless)",Array,"Stone Throwing",Array
+" yes",Array,"Steal Size",Array
+" yes ",Array,"Staggering Fall",Array
+" no",Array,"Splinter Spell Resistance",Array
+" yes (harmless)",Array,"Spider Climb",Array
+" no",Array,"Snow Shape",Array
+" no",Array,"Silk to Steel",Array
+" yes",Array,"Sculpt Simulacrum",Array
+" yes (harmless, object)",Array,"Stabilize Powder",Array
+,Array,"Scale Spikes",Array
+" no",Array,"Rope Trick",Array
+" yes (object)",Array,"Recoil Fire",Array
+,Array,"Raven’s Flight",Array
+,Array,"Quick Change",Array
+" yes",Array,"Merge with Familiar",Array
+" no",Array,"Masterwork Transformation",Array
+": yes (harmless, object)",Array,"Make Whole",Array
+" yes",Array,"Steal Breath",Array
+,Array,"Magic Siege Engine",Array
+" no",Array,Levitate,Array
+" yes (object)",Array,"Kinetic Reverberation",Array
+" no",Array,Knock,Array
+,Array,"Hidden Knowledge",Array
+" yes",Array,"Human Potential",Array
+,Array,Glide,Array
+" no",Array,Greensight,Array
+" yes",Array,"Fox’s Cunning",Array
+" no",Array,"Full Pouch",Array
+" yes",Array,"Fool’s Gold",Array
+" yes",Array,Fleshcurdle,Array
+" yes",Array,"Fear the Sun",Array
+,Array,"Extreme Flexibility",Array
+" yes",Array,"Eldritch Conduit",Array
+" yes",Array,"Eagle’s Splendor",Array
+,Array,"Disfiguring Touch",Array
+" yes",Array,"Diminish Resistance",Array
+" yes (object)",Array,"Destablize Powder",Array
+" yes (harmless)",Array,Darkvision,Array
+" no",Array,Codespeak,Array
+" yes",Array,"Cat’s Grace",Array
+" yes (object)",Array,Buoyancy,Array
+" yes (harmless)",Array,"Bull’s Strength",Array
+,Array,"Boiling Blood",Array
+" yes (harmless)",Array,"Blood Blaze",Array
+,Array,"Blood Armor",Array
+" yes (harmless)",Array,"Certain Grip",Array
+" yes (harmless)",Array,"Carry Companion",Array
+" yes",Array,"Bear’s Endurance",Array
+,Array,"Badger’s Ferocity",Array
+" yes (harmless)",Array,"Animal Aspect",Array
+" no",Array,"Angelic Aspect",Array
+,Array,"Amplify Stench",Array
+,Array,"Alter Self",Array
+,Array,"Air Step",Array
+" no",Array,"Adhesive Blood",Array
+,Array,"Accelerate Poison",Array
+" yes",Array,"Aboleth’s Lung",Array
+" yes",Array,"Unshakable Chill",Array
+" yes",Array,"Touch of Bloodletting",Array
+" yes",Array,"Stricken Heart",Array
+" yes",Array,"Steal Voice",Array
+" no",Array,"Spectral Hand",Array
+,Array,Skinsend,Array
+" no",Array,"Sentry Skull",Array
+" yes",Array,Scare,Array
+" yes",Array,"Pernicious Poison",Array
+" yes",Array,"Limp Lash",Array
+" yes",Array,"Life Pact",Array
+" yes",Array,"Languid Venom",Array
+" yes",Array,Adoration,Array
+" yes",Array,"Ghoul Touch",Array
+,Array,"False Life",Array
+" no",Array,"Dress Corpse",Array
+" yes",Array,Defoliate,Array
+" no",Array,"Defending Bone",Array
+,Array,"Curse Terrain",Array
+,Array,"Command Undead",Array
+" yes (harmless, object)",Array,"Brow Gasher",Array
+" yes",Array,Boneshaker,Array
+" no",Array,"Bone Fists",Array
+" yes (harmless)",Array,"Blood in the Water",Array
+" yes",Array,Bloodbath,Array
+" yes",Array,Blindness-Deafness,Array
+" yes (harmless)",Array,"Companion Life Link",Array
+" yes",Array,"Umbral Weapon",Array
+" no",Array,"Twilight Haze",Array
+" yes",Array,"Symbol of Mirroring",Array
+" no (object)",Array,"Silent Table",Array
+" no",Array,"Shifted Steps",Array
+" yes",Array,"Shadow Anchor",Array
+" no",Array,"Phantom Trap",Array
+" no",Array,Misdirection,Array
+,Array,"Mirror Image",Array
+,Array,"Minor Image",Array
+" yes (object)",Array,"Magic Mouth",Array
+" yes",Array,"Mad Hallucination",Array
+" yes",Array,Jitterbugs,Array
+" yes (harmless) or yes (harmless, object)",Array,Invisibility,Array
+" yes",Array,"Hypnotic Pattern",Array
+" no",Array,"Haunting Mists",Array
+,Array,"Ghostly Disguise",Array
+,Array,"Disguise Other",Array
+" yes",Array,"Dark Whispers",Array
+" yes (harmless)",Array,Blur,Array
+" yes",Array,"Spontaneous Immolation",Array
+" yes",Array,"Sonic Scream",Array
+" yes",Array,Shatter,Array
+,Array,"Scorching Ray",Array
+" yes (harmless, object)",Array,"Ricochet Shot",Array
+" yes",Array,"Protective Penumbra",Array
+" yes (object)",Array,"Pilfering Hand",Array
+" yes",Array,"Molten Orb",Array
+" yes (harmless)",Array,"Imbue with Elemental Might",Array
+" see text",Array,"Ice Slick",Array
+" yes",Array,"Gusting Sphere",Array
+" yes",Array,"Gust of Wind",Array
+" yes",Array,"Frost Fall",Array
+" yes",Array,"Frigid Touch",Array
+" yes",Array,"Force Sword",Array
+" yes",Array,"Flickering Lights",Array
+" yes",Array,"Flaming Sphere",Array
+" yes",Array,"Fire Sneeze",Array
+" yes",Array,"Fire Breath",Array
+,Array,"Fiery Runes",Array
+" no",Array,"Elemental Touch",Array
+,Array,"Defensive Shock",Array
+" no",Array,Darkness,Array
+" no",Array,"Continual Flame",Array
+" no",Array,"Contact Entity",Array
+" yes",Array,"Burst of Radiance",Array
+" yes",Array,"Burning Gaze",Array
+,Array,"Burning Arc",Array
+" yes",Array,"Aggressive Thundercloud",Array
+" yes",Array,"Admonishing Ray (3.5E)",Array
+" yes",Array,"Unnatural Lust",Array
+" yes",Array,"Touch of Mercy",Array
+" yes",Array,"Touch of Idiocy",Array
+" yes (harmless)",Array,"Tactical Acumen",Array
+,Array,"Seducer’s Eyes",Array
+" yes",Array,Qualm,Array
+" yes",Array,"Passing Fancy",Array
+" yes",Array,"Oppressive Boredom",Array
+,Array,"Investigative Mind",Array
+" yes",Array,"Hideous Laughter",Array
+" yes",Array,"Hidden Presence",Array
+" yes",Array,Heckle,Array
+,Array,"Delay Pain",Array
+,Array,"Daze Monster",Array
+" yes",Array,"Compulsive Liar",Array
+,Array,"Compassionate Ally",Array
+" yes (harmless)",Array,"Bestow Weapon Proficiency",Array
+" yes (harmless)",Array,"Bestow Insight",Array
+" yes",Array,"Arcane Disruption",Array
+" yes",Array,"Twisted Futures",Array
+" yes (object)",Array,"Track Ship",Array
+" yes",Array,"Spell Gauge",Array
+" yes",Array,"Share Memory",Array
+" yes (harmless)",Array,"Share Language",Array
+,Array,"See Invisibility",Array
+" no",Array,"Locate Object",Array
+" yes (harmless)",Array,"Know Peerage",Array
+,Array,"Embrace Destiny",Array
+,Array,"Elemental Speech",Array
+" no",Array,"Determine Depth",Array
+" no",Array,"Detect Thoughts",Array
+" no",Array,"Create Treasure Map",Array
+,Array,"Commune with Birds",Array
+" no",Array,"Carrion Compass",Array
+,Array,"Blood Transcription",Array
+" yes",Array,"Whip of Spiders",Array
+" no",Array,"Web Shelter",Array
+" no",Array,Web,Array
+" yes",Array,"Vine Strike",Array
+,Array,"Summon Swarm",Array
+" no",Array,"Stone Discus",Array
+" no",Array,"Stone Call",Array
+" no",Array,Slipstream,Array
+" no",Array,Shackle,Array
+" no",Array,"River Whip",Array
+" yes (harmless, object)",Array,"Returning Weapon",Array
+" no",Array,"Retrieve Item",Array
+" yes (harmless, object)",Array,"Reloading Hands",Array
+,Array,"Mud Buddy",Array
+,Array,"Instant Weapon",Array
+" no",Array,Glitterdust,Array
+,Array,"Fog Cloud",Array
+" yes",Array,"Fiery Shuriken",Array
+" no",Array,"Euphoric Cloud",Array
+" no",Array,"Dust of Twilight",Array
+,Array,"Cushioning Bands",Array
+" no",Array,"Create Pit",Array
+" no",Array,"Cloud of Seasickness",Array
+" yes",Array,Callback,Array
+,Array,"Blade Tutor’s Spirit",Array
+" yes",Array,"Arrow Eruption",Array
+" yes",Array,"Alter Summoned Monster",Array
+,Array,"Warding Weapon",Array
+" yes (harmless)",Array,"With the Wind",Array
+" yes (harmless)",Array,"Resist Energy",Array
+" yes (harmless)",Array,"Protection from Arrows",Array
+,Array,"Acid Arrow",Array
+" yes (object)",Array,"Obscure Object",Array
+" no",Array,"Gird Ally",Array
+" yes",Array,"Miserable Pity",Array
+" yes",Array,"Disrupt Link",Array
+,Array,"Escaping Ward",Array
+" yes (harmless)",Array,"Bullet Shield",Array
+,Array,"Bullet Ward",Array
+" yes (harmless)",Array,"Death from Below",Array
+" yes",Array,"Crimson Confession",Array
+" Yes (harmless)",Array,"Book Ward",Array
+" no",Array,"Arcane Lock",Array
+" yes",Array,"Anti-Summoning Shield",Array
+,Array,"Youthful Appearance",Array
+" yes",Array,"Wizened Appearance",Array
+,Array,"Windy Escape",Array
+,Array,"Weaken Powder",Array
+" yes",Array,"Vocal Alteration",Array
+" yes (harmless, object)",Array,"Unerring Weapon",Array
+" yes",Array,"Transfer Tattoo",Array
+" yes (harmless)",Array,"Touch of the Sea",Array
+" yes",Array,"Touch of Gracelessness",Array
+" yes (harmless)",Array,"Swift Girding",Array
+,Array,"Sundering Shards",Array
+,Array,"Stone Fist",Array
+" yes",Array,"Snapdragon Fireworks",Array
+" yes (harmless, object)",Array,"Reinforce Armaments",Array
+" yes (harmless, object)",Array,"Refine Improvised Weapon",Array
+" yes",Array,"Reduce Person",Array
+,Array,"Recharge Innate Magic",Array
+" no (object)",Array,"Poisoned Egg",Array
+,Array,"Monkey Fish",Array
+,Array,"Mirror Strike",Array
+" yes (object)",Array,"Mirror Polish",Array
+,Array,"Marid’s Mastery",Array
+" yes (harmless, object)",Array,"Magic Weapon",Array
+,Array,Longshot,Array
+,Array,"Long Arm",Array
+" yes (object)",Array,"Lighten Object",Array
+" yes (harmless)",Array,"Liberating Command",Array
+,Array,Jury-Rig,Array
+" yes",Array,Jump,Array
+" no",Array,"Handy Grapnel",Array
+,Array,"Gravity Bow",Array
+" yes",Array,"Forced Quiet",Array
+,Array,"Feather Fall",Array
+,Array,"Fabricate Disguise",Array
+" no",Array,"Fabricate Bullets",Array
+,Array,"Expeditious Retreat",Array
+" no",Array,"Expeditious Excavation",Array
+" no",Array,Erase,Array
+" yes",Array,"Enlarge Person",Array
+" yes (harmless)",Array,"Emblazon Crest",Array
+" yes",Array,"Endothermic Touch",Array
+" Yes (object)",Array,"Burning Disarm",Array
+" yes (harmless)",Array,"Crafter’s Fortune",Array
+,Array,"Crafter’s Curse",Array
+" no",Array,"Dancing Lantern",Array
+,Array,"Blood Money",Array
+" yes (object)",Array,"Damp Powder",Array
+" yes (object)",Array,Break,Array
+,Array,"Bouncy Body",Array
+,Array,"Body Capacitance",Array
+" yes (harmless)",Array,"Ant Haul",Array
+" no",Array,"Animate Rope",Array
+" yes",Array,"Alter Winds",Array
+" yes",Array,"Touch of Blindness",Array
+" no",Array,"Sculpt Corpse",Array
+" no",Array,"Restore Corpse",Array
+,Array,"Alchemical Tinkering",Array
+" yes (harmless)",Array,"Repair Undead",Array
+,Array,"Ray of Sickening",Array
+,Array,"Ray of Enfeeblement",Array
+" yes",Array,"Positive Pulse",Array
+,Array,"Phantom Blood",Array
+" yes",Array,"Itching Curse",Array
+" yes",Array,Interrogation,Array
+" no",Array,"Grasping Corpse",Array
+,Array,"Decompose Corpse",Array
+,Array,"Chill Touch",Array
+" yes",Array,"Cause Fear",Array
+" yes (harmless)",Array,"Bed of Iron",Array
+" no",Array,Ventriloquism,Array
+" yes (harmless)",Array,Vanish,Array
+" no",Array,"Silent Image",Array
+" yes",Array,"Shadow Weapon",Array
+" yes",Array,"Shadow Trap",Array
+" no",Array,"Open and Shut",Array
+" yes",Array,"Negative Reaction",Array
+" no",Array,"Magic Aura",Array
+" no",Array,"Illusion of Calm",Array
+" no",Array,"Disguise Weapon",Array
+,Array,"Disguise Self",Array
+" yes (harmless, object)",Array,"Dazzling Blade",Array
+" yes",Array,"Darting Duplicate",Array
+" yes",Array,"Color Spray",Array
+" yes (harmless)",Array,"Clarion Call",Array
+,Array,"Blurred Movement",Array
+,Array,Blend,Array
+" yes",Array,"Auditory Hallucination",Array
+" yes (object)",Array,"Alter Musical Instrument",Array
+" yes",Array,Thunderstomp,Array
+,Array,"Shocking Grasp",Array
+,Array,"Magic Missile",Array
+,Array,"Hydraulic Push",Array
+" yes (harmless)",Array,"Gentle Breeze",Array
+" yes",Array,"Touch of Combustion",Array
+" no",Array,"Floating Disk",Array
+" yes",Array,"Flare Burst",Array
+" yes",Array,"Ear-Piercing Scream",Array
+,Array,"Dancing Darkness",Array
+" yes",Array,"Burning Hands",Array
+" yes",Array,"Unprepared Combatant",Array
+,Array,Sleep,Array
+" yes (harmless)",Array,"Moment of Greatness",Array
+" yes ",Array,"Memory Lapse",Array
+,Array,"Memorize Page",Array
+" yes",Array,"Lock Gaze",Array
+" yes (harmless)",Array,"Keep Watch",Array
+" yes",Array,Hypnotism,Array
+,Array,"Delusional Pride",Array
+" yes",Array,"Charm Person",Array
+,Array,Bungle,Array
+,Array,Aphasia,Array
+,Array,"See Alignment",Array
+" yes",Array,Mindlink,Array
+,Array,"True Strike",Array
+" no",Array,Technomancy,Array
+,Array,"Heightened Awareness",Array
+" no",Array,"Detect Undead",Array
+" yes",Array,"Linked Legacy",Array
+": no",Array,Identify,Array
+,Array,"Discern Next of Kin",Array
+,Array,"Cultural Adaptation",Array
+" yes",Array,"Anticipate Peril",Array
+" no",Array,"Web Bolt",Array
+" no",Array,"Detect Secret Doors",Array
+" no",Array,"Detect Metal",Array
+" no",Array,"Detect Charm",Array
+,Array,"Comprehend Languages",Array
+" no",Array,"Summon Minor Monster",Array
+" yes",Array,"Bestow Planar Infusion I",Array
+" no",Array,"Stumble Gap",Array
+" no",Array,"Stone Shield",Array
+,Array,"Unseen Servant",Array
+,Array,"Summon Monster",Array
+" no",Array,"Secluded Grimoire",Array
+" no",Array,"Obscuring Mist",Array
+" no",Array,Mudball,Array
+" no",Array,Mount,Array
+,Array,"Mage Armor",Array
+,Array,Songbird,Array
+" yes",Array,Snowball,Array
+" yes (object)",Array,"Ki Arrow",Array
+" yes (harmless) ",Array,"Infernal Healing",Array
+" no",Array,"Icicle Dagger",Array
+" yes",Array,"Guardian Armor",Array
+" no",Array,Grease,Array
+" no",Array,"Glue Seal",Array
+" no",Array,"Expeditious Construction",Array
+" no",Array,"Desperate Weapon",Array
+" yes",Array,"Corrosive Touch",Array
+" yes (harmless)",Array,"Celestial Healing",Array
+" yes (harmless)",Array,"Air Bubble",Array
+,Array,"Adhesive Spittle",Array
+" no",Array,"Abundant Ammunition",Array
+,Array,"Winter Feathers",Array
+,Array,"Wave Shield",Array
+,Array,"Sunder Breaker",Array
+,Array,"Stunning Barrier",Array
+,Array,"Shock Shield",Array
+,Array,Shield,Array
+,Array,"Rite of Centered Mind",Array
+" no; see text ",Array,"Protection from Law",Array
+" no; see text",Array,"Protection from Good",Array
+" no",Array,"Hold Portal",Array
+" yes (harmless)",Array,"Endure Elements",Array
+,Array,Alarm,Array
+,Array,"Adjuring Step",Array
+" no",Array,Prestidigitation,Array
+,Array,"Arcane Mark",Array
+" yes",Array,"Scrivener’s Chant",Array
+" yes (object)",Array,Open-Close,Array
+" no",Array,Message,Array
+": yes (harmless, object)",Array,Mending,Array
+" no",Array,"Mage Hand",Array
+,Array,"Touch of Fatigue",Array
+" yes",Array,"Disrupt Undead",Array
+" no",Array,"Ghost Sound",Array
+,Array,"Haunted Fey Aspect",Array
+" yes",Array,Bleed,Array
+" yes (object) ",Array,Spark,Array

@@ -8,8 +8,8 @@ regexClearHTML = re.compile(r"</?a[^>]*>") # replace by ""
 regexExtractLevels = re.compile(r".*<b>Level</b>([^<]*)") #res in group 1
 regexLevel = re.compile(r"(([a-zA-Z/][a-zA-Z/ ]*) ([0-9]+))") #each match a class+level || group 2 : class ; group 3 : level
 
-regexExtractComponents = re.compile(r".*<b>Components</b>([^<]*)") #res in group 1
-regexComponents = re.compile(r"([A-Z]+([^,/)]*\))?)") #each match is a comp
+regexExtractComponents = re.compile(r"<b>Components?</b>:?([^<]*)") #res in match 0
+regexComponents = re.compile(r"(([A-Z]+)( *\([^/)]*\))?)") #each match is a comp
 
 regexExtractSR = re.compile(r".*<b>Spell Resistance</b>([^<]*)") #res in group 1
 
@@ -25,7 +25,7 @@ class SpellSpider(scrapy.Spider):
             yield Request(s_link, callback=self.parse_spell)
     
     def parse_spell(self, response):
-
+        broke = False
         #name
         name = response.xpath('//h1//text()').get().encode("utf-8")
         #ALL THE TEEEEXT
@@ -47,27 +47,36 @@ class SpellSpider(scrapy.Spider):
             for levelstemp in l:
                 levels[levelstemp[1]] = levelstemp[2]
         except:
-             print("Spell " + name+" : levels extract broke")
-             pass
+            broke = True
+            #print("Spell " + name+" : levels extract broke")
+            pass
         
         #Components
-        componenttab = regexExtractComponents.match(te)
+        componenttab = regexExtractComponents.findall(te)
         components=[]
-        if(componenttab):
-            c = componenttab.group(1)
-            c1 = regexComponents.findall(c)
-            for compo in c1:
-                components.append(compo[0])
-        
+        try:
+            if(componenttab[0]):
+                c = componenttab[0]#.group(1)
+                c1 = regexComponents.findall(c)
+                for compo in c1:
+                    components.append(compo[1])
+            else:
+                print(name + " : NO COMPONENTS : " + te2)
+        except:
+            broke = True
+            #print(name + " : components broke")
         #Spell resistance
         SRtab = regexExtractSR.match(te)
         SR=""
         if(SRtab):
             SR = SRtab.group(1)
-        yield {
-            'name' : name,
-            'levels' : levels,
-            'components' : components if(componenttab) else [],
-            'SR' : SR if(SRtab) else ""
-        }
-        
+        else:
+            #print(name + " : NO SR")
+            pass
+        if(not broke):
+            yield {
+                'name' : name,
+                'levels' : levels,
+                'components' : components if(componenttab) else [],
+                'SR' : SR if(SRtab) else ""
+            }
