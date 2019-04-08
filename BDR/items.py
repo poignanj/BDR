@@ -14,3 +14,5 @@ class BdrItem(scrapy.Item):
     levels = scrapy.Field()
     components = scrapy.Field()
     SR = scrapy.Field()
+    spells = scrapy.Field()
+
